@@ -15,6 +15,8 @@ public class ConnectDatabase {
                     "TEAM_NAME VARCHAR(50) NOT NULL, " +
                     ");");
 
+//            result = stmt.executeUpdate("DROP TABLE TEAMS");
+
             con.commit();
         } catch (Exception e) {
             e.printStackTrace(System.out);
